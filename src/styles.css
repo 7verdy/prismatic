@@ -16,3 +16,20 @@ body, a {
 a:hover, .nav-links.active {
     color: var(--color-active);
 }
+
+nav {
+    width: 55%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-active);
+}

@@ -5,3 +5,4 @@
 </script>
 <Nav/>
 <slot></slot>
+<footer>made by <a href="https://github.com/7verdy">verdy</a></footer>
