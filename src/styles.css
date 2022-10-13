@@ -1,0 +1,18 @@
+:root {
+    --color-background: #1F1F21;
+    --color-text: #FDFEFE;
+    --color-active: #1ABC9C;
+}
+
+body {
+    background-color: var(--color-background);
+    margin: 0 10%;
+}
+
+body, a {
+    color: var(--color-text);
+}
+
+a:hover, .nav-links.active {
+    color: var(--color-active);
+}
