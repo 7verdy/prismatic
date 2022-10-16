@@ -9,7 +9,7 @@
 
 <div>
 	<nav class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
-		<div class="flex items-center justify-between">
+		<div>
 			<a class="text-xl font-bold md:text-2xl underline-stroke" href="/"> PrismHUB </a>
 			<!-- Mobile menu button -->
 			<!-- svelte-ignore a11y-click-events-have-key-events -->

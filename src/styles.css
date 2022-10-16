@@ -1,8 +1,9 @@
 :root {
     --color-accent: #D2161E;
-    --color-background: #1F1F21;
+    --color-background: #12151D;
     --color-text: #FDFEFE;
     --color-hover: #B30E15;
+    --color-card: #181A25;
 }
 
 body {
@@ -37,7 +38,9 @@ a.nav-links:hover::after {
 }
 
 nav {
-    width: 55%;
+    width: 75% !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
 footer {
@@ -86,4 +89,32 @@ button {
 button:hover {
     color: var(--color-text);
     background-color: var(--color-hover);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.card {
+    display: inline-block;
+    height: 100%;
+    background-color: var(--color-card);
+    border-radius: 25px;
+    border: 2px solid #3B3B3B;
+    padding: 1em;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+.stats > * {
+    margin: 0.5em auto;
+}
+.stats > input {
+    width: 10em;
 }

@@ -1,5 +1,13 @@
+<script>
+    import Card from "../../components/card.svelte";
+    import Stats from "../../components/stats.svelte";
+    import Equipment from "../../components/equipment.svelte";
+</script>
 <svelte:head>
     <title>Stats Calculator | Prism Hub</title>
 </svelte:head>
 
-<div>Hello</div>
+<div class="content">
+    <Card title="Stats" content={Stats}/>
+    <Card title="Equipment" content={Equipment}/>
+</div>
