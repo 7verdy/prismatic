@@ -10,7 +10,7 @@
 <div>
 	<nav class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
 		<div class="flex items-center justify-between">
-			<a class="text-xl font-bold md:text-2xl" href="/"> PrismHUB </a>
+			<a class="text-xl font-bold md:text-2xl underline-stroke" href="/"> PrismHUB </a>
 			<!-- Mobile menu button -->
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<div on:click={toggleNavbar} class="flex md:hidden">
@@ -29,7 +29,7 @@
 			<a class="nav-links" href="#">Coming soon...</a>
 		</div>
 		<div class="flex items-center justify-between">
-			<a class="nav-links" href="https://discord.gg/kurechii">Join the Postknights!</a>
+			<button class="nav-links" href="https://discord.gg/kurechii">Join the Postknights!</button>
 		</div>
 	</nav>
 </div>
