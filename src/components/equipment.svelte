@@ -1,9 +1,11 @@
 <script>
-    /**
-	 * @type {string}
-	 */
-    export let title;
+    const areas = [ 'Maille', 'Pompon', 'Caldemount', 'Violetfair',
+                    'Aldor', 'Sagacia', 'Regalle' ];
 </script>
 <div class="equipment">
-    {title}
+    {#each areas as area}
+    <div class="area">
+        {area}
+    </div>
+    {/each}
 </div>

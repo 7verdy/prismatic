@@ -1,4 +1,4 @@
 <svelte:head>
-    <title>Index | Prism Hub</title>
+    <title>Index | Prismatic</title>
 </svelte:head>
 <div class="content"></div>

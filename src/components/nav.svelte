@@ -10,7 +10,7 @@
 <div>
 	<nav class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
 		<div>
-			<a class="text-xl font-bold md:text-2xl underline-stroke" href="/"> PrismHUB </a>
+			<a class="text-xl font-bold md:text-2xl underline-stroke" href="/"> Prismatic </a>
 			<!-- Mobile menu button -->
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<div on:click={toggleNavbar} class="flex md:hidden">
