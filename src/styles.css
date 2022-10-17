@@ -4,13 +4,17 @@
     --color-text: #FDFEFE;
     --color-hover: #B30E15;
     --color-card: #181A25;
+    --color-border: #3B3B3B;
 }
 
 body {
     background-color: var(--color-background);
     margin: 0 10%;
 }
-
+body > * {
+    margin: 0 12.5%;
+    justify-content: center;
+}
 body,
 a {
     color: var(--color-text);
@@ -38,7 +42,6 @@ a.nav-links:hover::after {
 }
 
 nav {
-    width: 75% !important;
     display: flex !important;
     align-items: center !important;
 }
@@ -104,7 +107,7 @@ button:hover {
     height: 100%;
     background-color: var(--color-card);
     border-radius: 25px;
-    border: 2px solid #3B3B3B;
+    border: 2px solid var(--color-border);
     padding: 1em;
 }
 
@@ -122,4 +125,8 @@ button:hover {
 .equipment-types {
     display: flex;
     flex-direction: column;
+}
+
+select {
+    background-color: var(--color-background);
 }
