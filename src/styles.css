@@ -44,9 +44,8 @@ nav {
     position: relative;
     display: flex !important;
     align-items: center !important;
-    margin: 0 12.5%;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 .nav-first, .nav-last {
     position: absolute;
@@ -100,7 +99,7 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 button:hover {
@@ -148,9 +147,8 @@ select {
 }
 
 input[type="search"] {
-    position: absolute;
     z-index: 999;
-    top: 33%;
+    /* top: 33%; */
     width: 40%;
     height: 3em;
     border-radius: 7px;
@@ -158,8 +156,8 @@ input[type="search"] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.content {
-    margin-top: 2.5em;
+#search {
+    margin-top: -1.5em;
 }
 
 .banner {
@@ -185,4 +183,8 @@ input[type="search"] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.results {
+    margin-top: 2.5%;
 }
