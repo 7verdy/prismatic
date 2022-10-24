@@ -11,10 +11,12 @@ body {
     background-color: var(--color-background);
     margin: 0 10%;
 }
-body > * {
+
+body>* {
     margin: 0 12.5%;
     justify-content: center;
 }
+
 body,
 a {
     color: var(--color-text);
@@ -94,14 +96,6 @@ button:hover {
     background-color: var(--color-hover);
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10%;
-}
-
 .card {
     display: inline-block;
     height: 100%;
@@ -115,10 +109,12 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
-.stats > * {
+
+.stats>* {
     margin: 0.5em auto;
 }
-.stats > input {
+
+.stats>input {
     width: 10em;
 }
 
@@ -129,4 +125,27 @@ button:hover {
 
 select {
     background-color: var(--color-background);
+}
+
+input[type="text"] {
+    color: #000;
+    width: 40%;
+    height: 3em;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.results {
+    height: 70vh;
+    width: 60vw;
+}
+
+input#search {
+    position: absolute;
+    z-index: 999;
+    top: 14%;
+}
+
+.content {
+    margin-top: 2.5em;
 }

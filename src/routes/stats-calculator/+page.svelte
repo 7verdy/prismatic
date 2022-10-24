@@ -7,7 +7,7 @@
 	<title>Stats Calculator | Prismatic</title>
 </svelte:head>
 
-<div class="content">
+<div class="content flex flex-row justify-center items-center">
 	<Card title="Stats" content={Stats} />
 	<Card title="Equipment" content={Equipment} />
 </div>
