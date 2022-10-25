@@ -41,6 +41,10 @@ a.nav-links:hover::after {
     width: 100%;
 }
 
+p {
+    text-align: start;
+}
+
 nav {
     position: relative;
     display: flex !important;
@@ -143,6 +147,7 @@ select {
 }
 
 .results {
+    margin-top: 2em;
     width: 60vw;
 }
 
@@ -154,9 +159,9 @@ select {
 input[type="search"] {
     position: absolute;
     z-index: 2;
-    top: 33%;
+    top: 32%;
     width: 40%;
-    height: 3em;
+    height: 4em;
     border-radius: 7px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -198,6 +203,8 @@ input[type="search"] {
     background-color: var(--color-background);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    max-width: 15em;
+    min-height: 20em;
 }
 
 .category-block {

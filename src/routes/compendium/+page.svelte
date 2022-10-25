@@ -11,7 +11,7 @@
 <Banner title="Compendium" />
 <div class="content flex flex-col justify-center items-center">
     <input type="search" id="search" placeholder="Enter a query..." bind:value />
-    <div class="results grid grid-cols-3 gap-5 justify-center align-center">
+    <div class="results grid grid-cols-4 gap-5 justify-center align-center">
         {#each entries as [_, entry]}
             <CompendiumEntry title={entry['name']} description={entry['description']} category={entry['category']} />
         {/each}
