@@ -10,4 +10,4 @@ const getAreas = async () => {
   const areasFetched = data['areas'];
   areas.set(areasFetched);
 };
-getAreas();
+// getAreas();
