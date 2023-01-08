@@ -108,11 +108,15 @@ button:hover {
 
 .card {
     display: inline-block;
-    height: 100%;
     background-color: var(--color-card);
     border-radius: 25px;
     border: 2px solid var(--color-border);
     padding: 1em;
+}
+
+.card .top-row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .stats {
