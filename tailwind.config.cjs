@@ -5,7 +5,10 @@ module.exports = {
 		extend: {
 			maxHeight: {
 				'1/2': '50%',
-			  }
+			  },
+			fontFamily: {
+				asgard: ['Asgard']
+			}
 		}
 	},
 	variants: {
